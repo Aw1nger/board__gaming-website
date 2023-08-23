@@ -8,6 +8,18 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ *, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -75,6 +87,8 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
+  color: inherit
 }
 
 /**
@@ -197,6 +211,17 @@ button,
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+}
+
+
+button {
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 /**
