@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
     <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="style/style.css" />
     <title>board</title>
@@ -22,38 +22,55 @@
       <div class="ellipses">
         <div class="ellipse_1"></div>
         <div class="ellipse_2"></div>
-        <div class="ellipse_3"></div>
+        <!-- <div class="ellipse_3"></div> -->
       </div>
       <header class="header">
         <div class="container">
           <div class="header__wrapper">
-            <nav class="nav-bar">
-              <div class="nav-bar__logo">
-                <img src="assets/logo.svg" alt="" class="nav-bar__logo-img" />
-                <span class="nav-bar__logo-text">board</span>
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="assets/logo.svg" alt="" class="nav-bar__logo-img" />
+                  <span class="nav-bar__logo-text">board</span>
+                </a>
+                <button
+                  class="navbar-toggler d-lg-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsibleNavId"
+                  aria-controls="collapsibleNavId"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                  <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#" aria-current="page">Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Apps & Games</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">about</a>
+                    </li>
+                  </ul>
+                  <button class="btn btn-outline-primary" type="submit">
+                    <img
+                      src="assets/bag-btn.svg"
+                      alt=""
+                      class="nav-bar__bag-img"
+                    />
+                  </button>
+                </div>
               </div>
-              <div class="nav-bar__menu">
-                <ul class="nav-bar__menu-list">
-                  <li class="nav-bar__menu-item active-menu">
-                    <a href="#" class="nav-bar__menu-item-link">Products</a>
-                  </li>
-                  <li class="nav-bar__menu-item">
-                    <a href="#" class="nav-bar__menu-item-link">Apps & Games</a>
-                  </li>
-                  <li class="nav-bar__menu-item">
-                    <a href="#" class="nav-bar__menu-item-link">features</a>
-                  </li>
-                  <li class="nav-bar__menu-item">
-                    <a href="#" class="nav-bar__menu-item-link">Support</a>
-                  </li>
-                  <li class="nav-bar__menu-item">
-                    <a href="#" class="nav-bar__menu-item-link">about</a>
-                  </li>
-                </ul>
-              </div>
-              <button class="nav-bar__bag-btn">
-                <img src="assets/bag-btn.svg" alt="" class="nav-bar__bag-img" />
-              </button>
             </nav>
           </div>
         </div>
@@ -226,16 +243,24 @@
                 </div>
                 <div class="top-games__btnbox">
                   <a href="#" class="basic__btn-link">
-                    <button class="basic__btn top-games__header-btn">Mewest games</button>
+                    <button class="basic__btn top-games__header-btn">
+                      Mewest games
+                    </button>
                   </a>
                   <a href="" class="basic__btn-link">
-                    <button class="basic__btn top-games__header-btn">Latest games</button>
+                    <button class="basic__btn top-games__header-btn">
+                      Latest games
+                    </button>
                   </a>
                   <a href="" class="basic__btn-link">
-                    <button class="basic__btn top-games__header-btn">Fight games</button>
+                    <button class="basic__btn top-games__header-btn">
+                      Fight games
+                    </button>
                   </a>
                   <a href="" class="basic__btn-link">
-                    <button class="basic__btn top-games__header-btn">sport games</button>
+                    <button class="basic__btn top-games__header-btn">
+                      sport games
+                    </button>
                   </a>
                 </div>
               </div>
@@ -297,7 +322,9 @@
                         </div>
                         <div class="top-games__user-info">
                           <div class="top-games__user-name">Dianne Russell</div>
-                          <div class="top-games__user-status">Louis Vuitton</div>
+                          <div class="top-games__user-status">
+                            Louis Vuitton
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -461,7 +488,11 @@
         <section class="feedback">
           <div class="container">
             <div class="feedback__wrapper">
-              <div id="carouselExampleIndicators" class="feedback-slider carousel slide carousel-fade" data-bs-ride="carousel">
+              <div
+                id="carouselExampleIndicators"
+                class="feedback-slider carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
                 <div class="feedback-slider__wrapper carousel-inner">
                   <div class="carousel-item">
                     <div class="feedback-card">
@@ -475,7 +506,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            I've been thoroughly impressed by this gaming website, thanks to its wide array of game guides and tutorials. They've been instrumental in honing my gaming skills, conquering challenging quests, and revealing hidden game secrets. The guides are comprehensive, easy to follow, and have undeniably boosted my gaming performance.
+                            I've been thoroughly impressed by this gaming
+                            website, thanks to its wide array of game guides and
+                            tutorials. They've been instrumental in honing my
+                            gaming skills, conquering challenging quests, and
+                            revealing hidden game secrets. The guides are
+                            comprehensive, easy to follow, and have undeniably
+                            boosted my gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -520,7 +557,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            This gaming site truly shines with its expansive collection of game guides and tutorials. These resources have proven invaluable in improving my gaming skills, tackling difficult quests, and uncovering hidden game secrets. The guides are comprehensive, user-friendly, and have undoubtedly elevated my gaming performance.
+                            This gaming site truly shines with its expansive
+                            collection of game guides and tutorials. These
+                            resources have proven invaluable in improving my
+                            gaming skills, tackling difficult quests, and
+                            uncovering hidden game secrets. The guides are
+                            comprehensive, user-friendly, and have undoubtedly
+                            elevated my gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -567,12 +610,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            One of the standout features of this gaming website is
-                            its extensive library of game guides and tutorials. It
-                            has helped me level up my skills, conquer challenging
-                            quests, and discover hidden secrets within games. The
-                            guides are comprehensive, easy to follow, and have
-                            undoubtedly elevated my gaming performance.
+                            One of the standout features of this gaming website
+                            is its extensive library of game guides and
+                            tutorials. It has helped me level up my skills,
+                            conquer challenging quests, and discover hidden
+                            secrets within games. The guides are comprehensive,
+                            easy to follow, and have undoubtedly elevated my
+                            gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -619,11 +663,11 @@
                           <div class="feedback-card__text">
                             Another aspect that sets this website apart is its
                             vibrant and passionate community. The forum section
-                            provides a platform for gamers from all walks of life
-                            to connect, share their experiences, and discuss their
-                            favorite titles. I've made valuable friendships and
-                            found like-minded individuals who share my enthusiasm
-                            for gaming.
+                            provides a platform for gamers from all walks of
+                            life to connect, share their experiences, and
+                            discuss their favorite titles. I've made valuable
+                            friendships and found like-minded individuals who
+                            share my enthusiasm for gaming.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -670,7 +714,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            I've been thoroughly impressed by this gaming website, thanks to its wide array of game guides and tutorials. They've been instrumental in honing my gaming skills, conquering challenging quests, and revealing hidden game secrets. The guides are comprehensive, easy to follow, and have undeniably boosted my gaming performance.
+                            I've been thoroughly impressed by this gaming
+                            website, thanks to its wide array of game guides and
+                            tutorials. They've been instrumental in honing my
+                            gaming skills, conquering challenging quests, and
+                            revealing hidden game secrets. The guides are
+                            comprehensive, easy to follow, and have undeniably
+                            boosted my gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -715,7 +765,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            This gaming site truly shines with its expansive collection of game guides and tutorials. These resources have proven invaluable in improving my gaming skills, tackling difficult quests, and uncovering hidden game secrets. The guides are comprehensive, user-friendly, and have undoubtedly elevated my gaming performance.
+                            This gaming site truly shines with its expansive
+                            collection of game guides and tutorials. These
+                            resources have proven invaluable in improving my
+                            gaming skills, tackling difficult quests, and
+                            uncovering hidden game secrets. The guides are
+                            comprehensive, user-friendly, and have undoubtedly
+                            elevated my gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -762,12 +818,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            One of the standout features of this gaming website is
-                            its extensive library of game guides and tutorials. It
-                            has helped me level up my skills, conquer challenging
-                            quests, and discover hidden secrets within games. The
-                            guides are comprehensive, easy to follow, and have
-                            undoubtedly elevated my gaming performance.
+                            One of the standout features of this gaming website
+                            is its extensive library of game guides and
+                            tutorials. It has helped me level up my skills,
+                            conquer challenging quests, and discover hidden
+                            secrets within games. The guides are comprehensive,
+                            easy to follow, and have undoubtedly elevated my
+                            gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -814,11 +871,11 @@
                           <div class="feedback-card__text">
                             Another aspect that sets this website apart is its
                             vibrant and passionate community. The forum section
-                            provides a platform for gamers from all walks of life
-                            to connect, share their experiences, and discuss their
-                            favorite titles. I've made valuable friendships and
-                            found like-minded individuals who share my enthusiasm
-                            for gaming.
+                            provides a platform for gamers from all walks of
+                            life to connect, share their experiences, and
+                            discuss their favorite titles. I've made valuable
+                            friendships and found like-minded individuals who
+                            share my enthusiasm for gaming.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -865,7 +922,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            I've been thoroughly impressed by this gaming website, thanks to its wide array of game guides and tutorials. They've been instrumental in honing my gaming skills, conquering challenging quests, and revealing hidden game secrets. The guides are comprehensive, easy to follow, and have undeniably boosted my gaming performance.
+                            I've been thoroughly impressed by this gaming
+                            website, thanks to its wide array of game guides and
+                            tutorials. They've been instrumental in honing my
+                            gaming skills, conquering challenging quests, and
+                            revealing hidden game secrets. The guides are
+                            comprehensive, easy to follow, and have undeniably
+                            boosted my gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -910,7 +973,13 @@
                             />
                           </div>
                           <div class="feedback-card__text">
-                            This gaming site truly shines with its expansive collection of game guides and tutorials. These resources have proven invaluable in improving my gaming skills, tackling difficult quests, and uncovering hidden game secrets. The guides are comprehensive, user-friendly, and have undoubtedly elevated my gaming performance.
+                            This gaming site truly shines with its expansive
+                            collection of game guides and tutorials. These
+                            resources have proven invaluable in improving my
+                            gaming skills, tackling difficult quests, and
+                            uncovering hidden game secrets. The guides are
+                            comprehensive, user-friendly, and have undoubtedly
+                            elevated my gaming performance.
                           </div>
                         </div>
                         <div class="feedback-card__userbox">
@@ -944,14 +1013,42 @@
                         </div>
                       </div>
                     </div>
-                  </div> 
+                  </div>
                 </div>
                 <div class="feedback-slider__dots carousel-indicators">
-                  <button type="button" class="feedback-slider__dot" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"></button>
-                  <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" class="feedback-slider__dot active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"></button>
-                  <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button
+                    type="button"
+                    class="feedback-slider__dot"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    class="feedback-slider__dot active"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-current="true"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
                 </div>
               </div>
             </div>
@@ -980,7 +1077,7 @@
           </div>
         </div>
         <div class="footer__bg">
-          <img src="assets/footer__bg.png" alt="" class="footer__bg-img">
+          <img src="assets/footer__bg.png" alt="" class="footer__bg-img" />
         </div>
         <div class="container">
           <div class="footer__wrapper">
@@ -1028,13 +1125,17 @@
                 <ul class="footer-main__menu-list">
                   <li class="footer-main__menu-title">resources</li>
                   <li class="footer-main__menu-item">
-                    <a href="#" class="footer-main__menu-link">youtube playlist</a>
+                    <a href="#" class="footer-main__menu-link"
+                      >youtube playlist</a
+                    >
                   </li>
                   <li class="footer-main__menu-item">
                     <a href="#" class="footer-main__menu-link">how to - blog</a>
                   </li>
                   <li class="footer-main__menu-item">
-                    <a href="#" class="footer-main__menu-link">terms & conditions</a>
+                    <a href="#" class="footer-main__menu-link"
+                      >terms & conditions</a
+                    >
                   </li>
                 </ul>
               </div>
